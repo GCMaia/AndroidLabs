@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="hello_message">Ola Mundo!</string>
+    <string name="ButtonText">Eu sou um botao</string>
+</resources>
