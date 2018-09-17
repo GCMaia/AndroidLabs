@@ -2,6 +2,8 @@ package com.example.gabri.androidlabs;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ImageButton;
 
 public class ListItemsActivity extends Activity {
 
