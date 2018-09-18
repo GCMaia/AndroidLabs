@@ -10,37 +10,37 @@
 
 
     <RadioButton
-        android:layout_row="0"
-        android:layout_column="0"
         android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/RadioButton" />
+        android:text="@string/RadioButton"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"/>
 
     <CheckBox
-        android:layout_row="0"
-        android:layout_column="1"
         android:id="@+id/checkBox"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/CheckBox" />
+        android:text="@string/CheckBox"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"/>
 
     <Switch
-        android:layout_row="1"
-        android:layout_column="0"
         android:id="@+id/Switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Switch"/>
+        android:text="@string/Switch"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"/>
 
     <ImageButton
-        android:layout_row="1"
-        android:layout_column="1"
         android:id="@+id/imageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/Image"
         android:src="@android:drawable/ic_menu_camera"
-        android:contentDescription="@string/Image"/>
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"/>
 
 
 </GridLayout>
