@@ -9,4 +9,11 @@
     <string name="Image"> </string>
     <string name="RadioButton">Radio Button</string>
     <string name="CheckBox">Check Box</string>
+    <string name="dialog_message">do you want to finish the activity?</string>
+    <string name="dialog_title">Action Checker</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="switchOn">Switch On</string>
+    <string name="switchOff">Switch Off</string>
+
 </resources>
