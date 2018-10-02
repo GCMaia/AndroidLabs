@@ -20,6 +20,7 @@ public class StartActivity extends Activity {
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
         final Button activityStartButton = findViewById(R.id.imaButton);
+        final Button chatButton = findViewById(R.id.chatButton);
 
         activityStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -27,6 +28,17 @@ public class StartActivity extends Activity {
                 Intent nextScreen = new Intent(StartActivity.this, ListItemsActivity.class);
 
                 startActivityForResult(nextScreen, 50);
+            }
+        });
+
+
+
+        chatButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent chatScreen = new Intent(StartActivity.this, ChatWindow.class);
+                startActivity(chatScreen);
+                Log.i(ACTIVITY_NAME, "User clicked Start chat");
             }
         });
 
@@ -43,6 +55,7 @@ public class StartActivity extends Activity {
             Toast toast = Toast.makeText(this, messagePassed, duration);
             toast.show();
         }
+
 
     }
 

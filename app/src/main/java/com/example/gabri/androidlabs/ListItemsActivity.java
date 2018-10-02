@@ -44,14 +44,12 @@ public class ListItemsActivity extends Activity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
 
                 if (isChecked){
-                    CharSequence text = "Switch is On";
                     int duration = Toast.LENGTH_SHORT;
-                    Toast toast = Toast.makeText(ListItemsActivity.this, text /*ListItemsActivity.this.getString(R.string.switchOn)*/, duration);
+                    Toast toast = Toast.makeText(ListItemsActivity.this, ListItemsActivity.this.getString(R.string.switchOn), duration);
                     toast.show();
                 } else {
-                    CharSequence text = "Switch is Off";
                     int duration = Toast.LENGTH_LONG;
-                    Toast toast = Toast.makeText(ListItemsActivity.this, text /*ListItemsActivity.this.getString(R.string.switchOff)*/, duration);
+                    Toast toast = Toast.makeText(ListItemsActivity.this, ListItemsActivity.this.getString(R.string.switchOff), duration);
                     toast.show();
                 }
             }

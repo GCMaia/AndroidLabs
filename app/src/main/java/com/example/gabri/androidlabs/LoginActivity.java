@@ -40,7 +40,7 @@ public class LoginActivity extends Activity {
                 edit.putString("DefaultEmail", input);
 
                 edit.putBoolean("Hello", false);
-                edit.commit();
+                edit.apply();
 
 
                 Intent intent = new Intent(LoginActivity.this, StartActivity.class);

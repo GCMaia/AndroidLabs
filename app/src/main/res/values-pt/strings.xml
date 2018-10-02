@@ -16,4 +16,7 @@
     <string name="cancel">Nao</string>
     <string name="switchOn">botao ligado</string>
     <string name="switchOff">botao desligado</string>
+    <string name="chatButton">comecar conversa</string>
+    <string name="send">enviar</string>
+    <string name="chatText">novo texto</string>
 </resources>
