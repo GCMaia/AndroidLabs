@@ -19,4 +19,10 @@
     <string name="chatButton">comecar conversa</string>
     <string name="send">enviar</string>
     <string name="chatText">novo texto</string>
+    <string name="weatherButton">Previsao</string>
+    <string name="query">Comecar Query</string>
+    <string name="speed">Velocidade do vento: %1$s</string>
+    <string name="max">Temperatura maxima: %1$s</string>
+    <string name="min">Temperatura Minima: %1$s</string>
+    <string name="current">Temperatura Atual: %1$s</string>
 </resources>
