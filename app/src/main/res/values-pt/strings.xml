@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lab1</string>
+    <string name="app_name">AndroidLabs</string>
     <string name="hello_message">Ola Mundo!</string>
     <string name="ButtonText">Eu sou um botao</string>
+    <string name="Login">Nome de Login</string>
+    <string name="LoginHint">Nome de Login</string>
+    <string name="Password">senha</string>
+    <string name="Switch">O que sera que isso faz?</string>
+    <string name="Image"> </string>
+    <string name="RadioButton">Botao radio</string>
+    <string name="CheckBox">Caixa de cheque</string>
+    <string name="dialog_message">voce quer terminar a atividade?</string>
+    <string name="dialog_title">checador de acao</string>
+    <string name="ok">Sim</string>
+    <string name="cancel">Nao</string>
+    <string name="switchOn">botao ligado</string>
+    <string name="switchOff">botao desligado</string>
+    <string name="chatButton">comecar conversa</string>
+    <string name="send">enviar</string>
+    <string name="chatText">novo texto</string>
+    <string name="weatherButton">Previsao</string>
+    <string name="query">Comecar Query</string>
+    <string name="speed">Velocidade do vento: %1$s</string>
+    <string name="max">Temperatura maxima: %1$s</string>
+    <string name="min">Temperatura Minima: %1$s</string>
+    <string name="current">Temperatura Atual: %1$s</string>
 </resources>

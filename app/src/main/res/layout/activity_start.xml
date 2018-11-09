@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.LinearLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -20,9 +20,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/imaButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ButtonText" />
 
-</android.widget.LinearLayout>
+    <Button
+        android:id="@+id/chatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chatButton" />
+
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weatherButton"/>
+
+</LinearLayout>
