@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.gabri.androidlabs">
+    <supports-screens android:requiresSmallestWidthDp="600"/>
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -25,7 +26,8 @@
         </activity>
         <activity android:name=".ListItemsActivity" />
         <activity android:name=".ChatWindow" />
-        <activity android:name=".WeatherForecast"></activity>
+        <activity android:name=".WeatherForecast" />
+        <activity android:name=".MessageDetails"></activity>
     </application>
 
 </manifest>
